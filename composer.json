@@ -1,5 +1,5 @@
 {
-  "name": "vansanblch/browshot-api-clien",
+  "name": "vansanblch/browshot-api-client",
   "license": "MIT",
   "type": "library",
   "description": "Client for Browshot",
