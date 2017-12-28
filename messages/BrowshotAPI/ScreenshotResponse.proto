@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package BrowshotAPI.Message;
+
+import "BrowshotAPI/ScreenshotStatus.proto";
+
+message ScreenshotResponse {
+    /* Screenshot id */
+    string id = 1;
+
+    /* Status of the request */
+    BrowshotAPI.Message.ScreenshotStatus status = 2;
+
+    /* Description of the problem that occurred */
+    string error = 3;
+
+    /* URL to download the screenshot */
+    string screenshotUrl = 4;
+}

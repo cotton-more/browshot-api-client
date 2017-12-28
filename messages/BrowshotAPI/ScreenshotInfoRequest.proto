@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package BrowshotAPI.Message;
+
+message ScreenshotInfoRequest {
+    /* Screenshot id */
+    string id = 1;
+}

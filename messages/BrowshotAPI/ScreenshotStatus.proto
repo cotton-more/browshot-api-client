@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package BrowshotAPI.Message;
+
+enum ScreenshotStatus {
+    UNKNOWN = 0;
+    IN_QUEUE = 1;
+    PROGRESSING = 2;
+    FINISHED = 3;
+    ERROR = 4;
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package BrowshotAPI.Message;
+
+message ScreenshotCreateRequest {
+    /* Url to take screenshot */
+    string url = 2;
+
+    /* Instance id to use   */
+    uint32 instanceId = 3;
+
+    /* Use a previous screenshot for same instanse and url */
+    uint32 cache = 4;
+
+    /* Number of seconds to wait after the page has loaded */
+    uint32 delay = 5;
+
+    /* Number of seconds to wait after the page has loaded if Flash elements are present */
+    uint32 flashDelay = 6;
+
+    /* Width of the browser window */
+    uint32 screenWidth = 7;
+
+    /* Height of the browser window */
+    uint32 screenHeight = 8;
+}
