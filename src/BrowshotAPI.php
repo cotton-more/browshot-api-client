@@ -142,14 +142,14 @@ class BrowshotAPI
      */
     private function getScreenshotStatus($status): int
     {
-        switch ($status) {
-            case 'in_queue':
+        switch (mb_strtoupper($status)) {
+            case 'IN_QUEUE':
                 return ScreenshotStatus::IN_QUEUE;
-            case 'progressing':
-                return ScreenshotStatus::PROGRESSING;
-            case 'finished':
+            case 'PROCESSING':
+                return ScreenshotStatus::PROCESSING;
+            case 'FINISHED':
                 return ScreenshotStatus::FINISHED;
-            case 'error':
+            case 'ERROR':
                 return ScreenshotStatus::ERROR;
         }
 
