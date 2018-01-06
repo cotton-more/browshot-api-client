@@ -18,9 +18,9 @@ class ScreenshotStatus
      */
     const IN_QUEUE = 1;
     /**
-     * Generated from protobuf enum <code>PROCESSING = 2;</code>
+     * Generated from protobuf enum <code>IN_PROGRESS = 2;</code>
      */
-    const PROCESSING = 2;
+    const IN_PROGRESS = 2;
     /**
      * Generated from protobuf enum <code>FINISHED = 3;</code>
      */

@@ -5,7 +5,7 @@ package BrowshotAPI.Message;
 enum ScreenshotStatus {
     UNKNOWN = 0;
     IN_QUEUE = 1;
-    PROCESSING = 2;
+    IN_PROGRESS = 2;
     FINISHED = 3;
     ERROR = 4;
 }
