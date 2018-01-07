@@ -1,6 +1,6 @@
 {
     "name": "vansanblch/browshot-api-client",
-    "version": "v0.6.1",
+    "version": "v0.6.2",
     "license": "MIT",
     "type": "library",
     "description": "Client for Browshot",
