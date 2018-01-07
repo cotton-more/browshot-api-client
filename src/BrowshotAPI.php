@@ -145,8 +145,8 @@ class BrowshotAPI
         switch (mb_strtoupper($status)) {
             case 'IN_QUEUE':
                 return ScreenshotStatus::IN_QUEUE;
-            case 'PROCESSING':
-                return ScreenshotStatus::PROCESSING;
+            case 'IN_PROCESS':
+                return ScreenshotStatus::IN_PROCESS;
             case 'FINISHED':
                 return ScreenshotStatus::FINISHED;
             case 'ERROR':
